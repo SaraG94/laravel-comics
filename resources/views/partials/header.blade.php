@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
 </head>
 <body>
     <header>
@@ -12,7 +13,7 @@
             <div class="container">
                 <div class="nav-header">
                     <div class="logo">
-                        <img src="/img/dc-logo.png" alt="imglogo">
+                        <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="imglogo">
                     </div>
 
                     <ul class="nav-items">
@@ -36,7 +37,7 @@
         </section>
       
         <section class="hero">
-            <!-- img -->
+            <img src="{{Vite::asset('resources/img/jumbotron.jpg')}}" alt="imglogo">
         </section>
     </header>
 </body>
