@@ -8,6 +8,7 @@ img{
 }
 
 .nav-header{
+    max-width: 1080px;
     margin: 0 auto;
     padding: 13px 0;
     display:flex;
@@ -25,4 +26,11 @@ img{
 .search-bar>input{
     border: none;
     text-align: end;
+}
+
+section.hero{    
+    background-image: url('/jumbotron.jpg');
+    background-size: cover;
+    background-position: top,center;
+    min-height: 290px;
 }

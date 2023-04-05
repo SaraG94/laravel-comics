@@ -37,5 +37,9 @@
         </section>
       
     </header>
+
+    <section class="hero">
+        
+    </section>
 </body>
 </html>
