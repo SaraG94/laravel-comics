@@ -9,7 +9,13 @@
             <div class="main-content">
                 <button class="series">Current series</button>
                 <div class="comics">
-                    @dump($comics)
+                    <!-- @dump($comics) -->
+                    @foreach ($comics as $comic)
+                    <div class="card-comics">
+                        <img src="{{ $comic['thumb'] }}" alt="img-Comics">
+                        <h3 class="card-text">{{$comic['series']}}</h3>
+                    </div>
+                    @endforeach
                 </div>
                 <!-- fumetti -->
                 <button class="load">Load more</button>

@@ -86,7 +86,7 @@ Route::get('/', function () {
             [
                 "title" => "Batgirl #1",
                 "description" => "“Beyond Burnside” Chapter One: The Batgirl you know and love is going global with Eisner Award-winning and New York Times best-selling writer Hope Larson (A Wrinkle in Time, Goldie Vance) and all-star artist Rafael Albuquerque (AMERICAN VAMPIRE). In order to up her game, Babs travels to Japan on a quest to train with the most elite modern combat masters of the East. But when a chance meeting with an old friend puts a target on her back, Batgirl may need to use her new skills to solve a deadly mystery.",
-                "thumb" => "https://www.panini.it/media/catalog/product/cache/a5b5dd3adfe0d321084804c738f29601/m/1/m1brao003isbn_0_yiy7urxwk3f1ozy9.jp",
+                "thumb" => "https://www.panini.it/media/catalog/product/cache/a5b5dd3adfe0d321084804c738f29601/m/1/m1brao003isbn_0_yiy7urxwk3f1ozy9.jpg",
                 "price" => "$2.99",
                 "series" => "Batgirl",
                 "sale_date" => "2016-07-27",
