@@ -8,6 +8,9 @@
         <div class="container black">
             <div class="main-content">
                 <button class="series">Current series</button>
+                <div class="comics">
+                    @dump($comics)
+                </div>
                 <!-- fumetti -->
                 <button class="load">Load more</button>
             </div>
