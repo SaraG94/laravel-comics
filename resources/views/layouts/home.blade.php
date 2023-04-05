@@ -4,5 +4,50 @@
 @section('page-title','Home')
 
 @section('content')
-<h1>questa è la home</h1>
+    <section class="home">
+        <div class="container black">
+            <div class="main-content">
+                <button class="series">Current series</button>
+                <!-- fumetti -->
+                <button class="load">Load more</button>
+            </div>
+        </div>
+
+        <div class="container blue">
+            <div class="shop-items">
+                <ul class="items">
+                    <li> 
+                        <a href="#">
+                            <img src="{{Vite::asset('resources/img/buy-comics-digital-comics.png')}}" alt="">
+                            Digital comics
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="{{Vite::asset('resources/img/buy-comics-merchandise.png')}}" alt="">
+                            Dc merchandise
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="{{Vite::asset('resources/img/buy-comics-subscriptions.png')}}" alt="">
+                            subscription
+                        </a>
+                    </li>
+                    <li class="shop">
+                        <a href="#">
+                            <img src="{{Vite::asset('resources/img/buy-comics-shop-locator.png')}}" alt="">
+                            comic shop locator
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="{{Vite::asset('resources/img/buy-dc-power-visa.svg')}}" alt="">
+                            dc power visa
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
 @endsection
