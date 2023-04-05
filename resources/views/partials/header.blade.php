@@ -8,7 +8,36 @@
 </head>
 <body>
     <header>
-        <h1>header</h1>
+        <section>
+            <div class="container">
+                <div class="nav-header">
+                    <div class="logo">
+                        <img src="/img/dc-logo.png" alt="imglogo">
+                    </div>
+
+                    <ul class="nav-items">
+                        <li>Characters</li>
+                        <li>Comics</li>
+                        <li>Movies</li>
+                        <li>TV</li>
+                        <li>Games</li>
+                        <li>Collectibles</li>
+                        <li>Videos</li>
+                        <li>Fans</li>
+                        <li>News</li>
+                        <li>Shop</li>
+                    </ul>
+
+                    <div class="search-bar">
+                        <input type="text" placeholder="search">
+                    </div>
+                </div>
+            </div>
+        </section>
+      
+        <section class="hero">
+            <!-- img -->
+        </section>
     </header>
 </body>
 </html>
