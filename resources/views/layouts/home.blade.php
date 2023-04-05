@@ -8,6 +8,7 @@
         <div class="container black">
             <div class="main-content">
                 <button class="series">Current series</button>
+                <!-- fumetti -->
                 <div class="comics">
                     <!-- @dump($comics) -->
                     @foreach ($comics as $comic)
@@ -17,7 +18,7 @@
                     </div>
                     @endforeach
                 </div>
-                <!-- fumetti -->
+               
                 <button class="load">Load more</button>
             </div>
         </div>
