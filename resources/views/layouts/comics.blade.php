@@ -20,11 +20,13 @@
                 </h1>
                 <div class="row price">
                     <div class="col-9">
-                        <p class="price">U.S. Price:{{ $price }}</p>
-                        <h3>available</h3>
+                        <p class="price"> 
+                           <span class="lightgreen">U.S. Price:</span> {{ $price }}
+                        </p>
+                        <h3 class="lightgreen">available</h3>
                     </div>
                     <div class="col-3">
-                        <button>Check Availabity</button>
+                        <button class="check">Check Availabity</button>
                     </div>
                 </div>
                 <p class="descrtion">
@@ -32,7 +34,7 @@
                 </p>
             </div>
             <div class="col-4">
-                <h4>advertisement</h4>
+                <h4 class="title-adv">advertisement</h4>
                 <img src="{{Vite::asset('resources/img/adv.jpg')}}" alt="adv">
             </div>
         </div>

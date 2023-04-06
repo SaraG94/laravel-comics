@@ -13,3 +13,57 @@
     margin-top: -180px;
     width: 120px;
 }
+/****info comics****/
+section.info-comics{
+    padding: 50px 0;
+}
+.title{
+    font-size: 25px;
+}
+
+.title-adv{
+    font-size: 14px;
+    text-align: end;
+}
+
+.title,
+.title-adv{
+    text-transform: uppercase;
+}
+
+/***row price****/
+.row.price{
+    background-color: #55BA59;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.row.price>.col-9{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.col-9>.price{
+    margin: 0;
+    color: white;
+}
+.col-9 .lightgreen{
+    color: #A4F390;
+}
+h3.lightgreen{
+    text-transform: uppercase;
+    font-size: 15px;
+    margin: 0;
+}
+
+.row.price>.col-3{
+    border-left: 1px solid #5a6a5a;
+    padding: 10px;
+}
+
+button.check{
+    font-size: 11px;
+    border: none;
+    background-color: transparent;
+}
