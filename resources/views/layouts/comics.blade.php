@@ -44,20 +44,20 @@
     <div class="min-container">
         <div class="row">
             <div class="col-6">
-                <div class="card">
+                <div class="card talent">
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><h3>Talent</h3></li>
-                        <li class="list-group-item">
-                            <h4>Art by</h4>
-                            <p>
+                        <li class="list-group-item list_title"><h3>Talent</h3></li>
+                        <li class="list-group-item info">
+                            <h4 class="col-2">Art by</h4>
+                            <p class="col-8">
                                 @foreach ($artists as $artist)
                                 {{ $artist }}
                                 @endforeach
                             </p>
                         </li>
-                        <li class="list-group-item">
-                            <h4>Written by</h4>
-                            <p>
+                        <li class="list-group-item info">
+                            <h4 class="col-2">Written by</h4>
+                            <p class="col-8">
                                 @foreach ($writers as $writer)
                                 {{ $writer }}
                                 @endforeach
@@ -67,20 +67,20 @@
                 </div>
             </div>
             <div class="col-6">
-                <div class="card">
+                <div class="card speces">
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><h3>specs</h3></li>
-                        <li class="list-group-item">
-                            <h4>Series</h4>
-                            <p>{{ $series }}</p>
+                        <li class="list-group-item list_title"><h3>specs</h3></li>
+                        <li class="list-group-item info">
+                            <h4 class="col-2">Series:</h4>
+                            <p class="col-8 serie">{{ $series }}</p>
                         </li>
-                        <li class="list-group-item">
-                            <h4>U.S. Price:</h4>
-                            <p>{{ $price }}</p>
+                        <li class="list-group-item info">
+                            <h4 class="col-2">U.S. Price:</h4>
+                            <p class="col-8">{{ $price }}</p>
                         </li>
-                        <li class="list-group-item">
+                        <li class="list-group-item info">
                             <h4>On sale date:</h4>
-                            <p>{{ $sale_date }}</p>
+                            <p class="col-8">{{ $sale_date }}</p>
                         </li>
                     </ul>
                 </div>

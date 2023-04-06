@@ -67,3 +67,39 @@ button.check{
     border: none;
     background-color: transparent;
 }
+
+/***info author***/
+section.info-author{
+    background-color: #F6F6F6;
+    padding: 30px 0;
+}
+
+.card.talent,
+.card.speces{
+    border: 0;
+}
+li.list-group-item{
+    background-color: #F6F6F6  ;
+}
+.card.talent li.info,
+.card.speces li.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+li.info h4{
+    font-size: 17px;
+}
+
+li.info p{
+    font-size: 13px;
+}
+
+.card.speces p.serie{
+    text-transform: uppercase;
+}
+
+.card.talent li.info p,
+.card.speces p.serie{
+    color: #0282F9;
+}
