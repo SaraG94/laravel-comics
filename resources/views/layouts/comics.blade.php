@@ -88,4 +88,36 @@
         </div>
     </div>
 </section>
+<section class="shop">
+    <div class="min-container">
+        <div class="shops">
+            <ul class="shop-comics">
+                <li class="col-3"> 
+                    <a href="#">
+                       Digital comics
+                    </a>
+                    <img src="{{Vite::asset('resources/img/buy-comics-digital-comics.png')}}" alt="" class="col-3">
+                </li>
+                <li class="col-3">
+                    <a href="#">
+                        shop dc
+                    </a>
+                    <img src="{{Vite::asset('resources/img/buy-comics-merchandise.png')}}" alt="" class="col-3">
+                </li>
+                <li class="col-3">
+                    <a href="#">
+                        comic shop locator
+                    </a>
+                    <img src="{{Vite::asset('resources/img/buy-comics-subscriptions.png')}}" alt="" class="col-3"> 
+                </li>
+                <li class="col-3 shop">
+                    <a href="#">
+                        subscription
+                    </a>
+                    <img src="{{Vite::asset('resources/img/buy-comics-shop-locator.png')}}" alt="" class="col-3"> 
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
 @endsection

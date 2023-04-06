@@ -103,3 +103,34 @@ li.info p{
 .card.speces p.serie{
     color: #0282F9;
 }
+/**section shop**/
+section.shop{
+    background-color: #F6F6F6;
+    border-top: 1px solid rgba(0, 0, 0, 0.125) ;
+}
+
+ul.shop-comics,
+ul.shop-comics li{
+    display: flex;
+    align-items: flex-start;
+}
+
+ul.shop-comics li{
+    justify-content: space-between;
+    padding: 12px;
+    min-height: 85px;
+    color: grey;
+    border-left: 1px solid rgba(0, 0, 0, 0.125) ;
+}
+ul.shop-comics:last-child{
+    border-right: 1px solid rgba(0, 0, 0, 0.125) ;
+}
+
+.shop-comics a{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 11px;
+}
+.shop-comics img{
+    filter: contrast(0.5);
+}
